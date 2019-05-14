@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = teddyrendahl
+	email = trendahl@slac.stanford.edu
+[core]
+    editor = vim
+[alias]
+    loll = log --graph --decorate --pretty=oneline --abbrev-commit
