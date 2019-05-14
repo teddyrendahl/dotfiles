@@ -1,0 +1,4 @@
+[submodule "terminal-app"]
+	path = terminal-app
+	url = https://github.com/dracula/terminal-app.git
+	branch = master
