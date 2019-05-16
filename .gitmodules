@@ -2,3 +2,7 @@
 	path = terminal-app
 	url = https://github.com/dracula/terminal-app.git
 	branch = master
+[submodule "icdiff"]
+	path = icdiff
+	url = https://github.com/jeffkaufman/icdiff
+	branch = master
