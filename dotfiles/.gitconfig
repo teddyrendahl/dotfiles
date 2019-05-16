@@ -5,5 +5,15 @@
 	email = trendahl@slac.stanford.edu
 [core]
     editor = vim
+
 [alias]
     loll = log --graph --decorate --pretty=oneline --abbrev-commit
+
+[diff]
+  tool = icdiff
+
+[difftool]
+  prompt = false
+
+[difftool "icdiff"]
+  cmd = /usr/local/bin/icdiff --line-numbers $LOCAL $REMOTE
